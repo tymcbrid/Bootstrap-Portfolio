@@ -11,6 +11,20 @@ h1 {
     padding: 20px;
     background-color: lightgray;
 }
+.row{
+    padding: 8px;   
+}
+
+.column {
+    float: left;
+    width: 35%;
+}
+
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
 
 
 #main_content {
@@ -25,4 +39,16 @@ h1 {
     width: 250px;
     padding-right: 30px;
     padding-bottom: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    .column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 64px) {
+    .column {
+        width: 100%;
+    }
 }
