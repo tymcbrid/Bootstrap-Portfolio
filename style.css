@@ -60,7 +60,7 @@ h1 {
         width: 100%;
     }
     #main_content {
-        width: 70%;
+        width: 80%;
     }
 }
 @media screen and (max-width: 576px) {
@@ -68,7 +68,7 @@ h1 {
         width: 100%;
     }
     #main_content {
-        width: 70%;
+        width: 90%;
     }
 }
 @media screen and (max-width: 320px) {
@@ -76,7 +76,7 @@ h1 {
         width: 100%;
     }
     #main_content {
-        width: 70%;
+        width: 100%;
     }
 }
 
