@@ -24,7 +24,10 @@ h1 {
     float: left;
     width: 35%;
 }
-
+.column2 {
+    float: left;
+    width: 100%;
+}
 .content {
     background-color: white;
     padding: 10px;
@@ -49,12 +52,48 @@ h1 {
 
 @media screen and (max-width: 992px) {
     .column {
-        width: 80%;
+        width: 40%;
+    }
+    .column2 {
+        width: 100%;
+    }
+    #main_content {
+        width: 70%;
     }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
     .column {
+        width: 40%;
+    }
+    .column2 {
+        width: 100%;
+    }
+    #main_content {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .column {
+        width: 100%;
+    }
+    .column2 {
+        width: 100%;
+    }
+    #main_content {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .column {
+        width: 100%;
+    }
+    .column2 {
+        width: 100%;
+    }
+    #main_content {
         width: 100%;
     }
 }
