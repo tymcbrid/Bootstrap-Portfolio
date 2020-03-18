@@ -22,7 +22,7 @@ h1 {
 
 .column {
     float: left;
-    width: 35%;
+    width: 100%;
 }
 
 .content {
@@ -49,12 +49,42 @@ h1 {
 
 @media screen and (max-width: 992px) {
     .column {
-        width: 50%;
+        width: 100%;
+    }
+    #main_content {
+        width: 70%;
     }
 }
-
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
     .column {
         width: 100%;
     }
+    #main_content {
+        width: 70%;
+    }
 }
+@media screen and (max-width: 576px) {
+    .column {
+        width: 100%;
+    }
+    #main_content {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .column {
+        width: 100%;
+    }
+    #main_content {
+        width: 70%;
+    }
+}
+
+
+
+
+/* @media screen and (max-width: 640px) {
+    .column {
+        width: 100%;
+    }
+} */
